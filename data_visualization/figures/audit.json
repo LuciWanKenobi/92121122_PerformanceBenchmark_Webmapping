@@ -1,0 +1,19 @@
+{
+  "input_file": "C:\\Users\\lucas\\Abschlussarbeit\\data_visualization\\benchmark-combined.csv",
+  "sha256": "9a8989e4c1de753dbf20ae53a4a533c29fe8a8d003aa8d6c9b43d683fb4ffed8",
+  "record_counts": {
+    "completed": 1989,
+    "failed": 23
+  },
+  "completed_core_records": 1989,
+  "completed_records_outside_core": 0,
+  "configurations_with_five_runs": 397,
+  "configurations_with_partial_runs": 3,
+  "configurations_without_runs": 20,
+  "aggregation": "median per configuration, linearly interpolated Q1 and Q3",
+  "warmup_policy": "completed rows retained regardless of warmup option",
+  "python": "3.11.14",
+  "pandas": "3.0.1",
+  "numpy": "2.4.2",
+  "matplotlib": "3.11.2"
+}
